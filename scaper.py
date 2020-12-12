@@ -1,18 +1,7 @@
 import twint
 from tqdm import tqdm
 
-searches = ["al-qaeda" ,
- "al-qaeda in the arabian peninsula" ,
- "al-qaeda in the islamic maghreb" ,
- "biological weapon" ,
- "car bomb" ,
- "chemical weapon" ,
- "conventional weapon" ,
- "dirty bomb" ,
- "environmental terrorism" ,
- "euskadi ta askatasuna" ,
- "extremism" ,
- "farc" ,
+searches = [
  "fundamentalism" ,
  "hamas" ,
  "hezbollah" ,
@@ -29,9 +18,6 @@ searches = ["al-qaeda" ,
  "pakistan" ,
  "palestine liberation front" ,
  "pirates" ,
- "plo" ,
- "political radicalism" ,
- "recruitment" ,
  "suicide attack" ,
  "terrorism"]
 
@@ -56,3 +42,5 @@ for search in tqdm(searches):
     config.Output = "_".join([search, start_date, end_date, 'Basile']) + ".csv"
     # make search
     twint.run.Search(config)
+
+print('--------------finished-------------')
