@@ -1,21 +1,14 @@
 import twint
 from tqdm import tqdm
 
-searches = ["abu sayyaf" ,
- "afghanistan" ,
- "agro" ,
- "al-qaeda" ,
+searches = ["al-qaeda" ,
  "al-qaeda in the arabian peninsula" ,
  "al-qaeda in the islamic maghreb" ,
- "al-shabaab" ,
- "ammonium nitrate" ,
- "attack" ,
  "biological weapon" ,
  "car bomb" ,
  "chemical weapon" ,
  "conventional weapon" ,
  "dirty bomb" ,
- "eco-terrorism" ,
  "environmental terrorism" ,
  "euskadi ta askatasuna" ,
  "extremism" ,
@@ -39,16 +32,8 @@ searches = ["abu sayyaf" ,
  "plo" ,
  "political radicalism" ,
  "recruitment" ,
- "somalia" ,
  "suicide attack" ,
- "suicide bomber" ,
- "taliban" ,
- "tamil tigers" ,
- "tehrik-i-taliban pakistan" ,
- "terror" ,
- "terrorism" ,
- "weapons-grade" ,
- "yemen"]
+ "terrorism"]
 
 
 start_date = '2012-01-01'
@@ -65,7 +50,7 @@ config.Until = end_date
 config.Store_csv = True
 config.Output = "_".join([search_term, start_date, end_date, 'Basile']) + ".csv"
 
-for search in searches[1:]:
+for search in tqdm(searches):
     print(f'Search : {search} ------------------------------')
     config.Search = search
     config.Output = "_".join([search, start_date, end_date, 'Basile']) + ".csv"
