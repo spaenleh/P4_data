@@ -1,0 +1,53 @@
+# How to scrape :
+
+Scrape only one keyword : `python3 scaper-single.py -q "keyword"`
+
+Keywords :
+- abu sayyaf
+- afghanistan
+- agro
+- al-qaeda
+- al-qaeda in the arabian peninsula
+- al-qaeda in the islamic maghreb
+- al-shabaab
+- ammonium nitrate
+- attack
+- biological weapon
+- car bomb
+- chemical weapon
+- conventional weapon
+- dirty bomb
+- eco-terrorism
+- environmental terrorism
+- euskadi ta askatasuna
+- extremism
+- farc
+- fundamentalism
+- hamas
+- hezbollah
+- improvised explosive device
+- iran
+- iraq
+- irish republican army
+- islamist
+- jihad
+- nationalism
+- nigeria
+- nuclear
+- nuclear enrichment
+- pakistan
+- palestine liberation front
+- pirates
+- plo
+- political radicalism
+- recruitment
+- somalia
+- suicide attack
+- suicide bomber
+- taliban
+- tamil tigers
+- tehrik-i-taliban pakistan
+- terror
+- terrorism
+- weapons-grade
+- yemen
