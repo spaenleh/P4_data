@@ -16,7 +16,6 @@ searches = [
  "nuclear" ,
  "nuclear enrichment" ,
  "pakistan" ,
- "palestine liberation front" ,
  "pirates" ,
  "suicide attack" ,
  "terrorism"]
