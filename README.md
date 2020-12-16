@@ -2,7 +2,7 @@
 
 Scrape only one keyword : `python3 scaper-single.py -q "keyword"`
 
-```
+```python
 keep_columns = ['id',
  'conversation_id',
  'created_at',
