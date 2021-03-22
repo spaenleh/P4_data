@@ -1,4 +1,10 @@
-# How to scrape :
+# P4_data
+This repo is the foundation to the data collection for the 4th milestone of the
+EPFL ADA Master course.
+
+In this project we collected tweets from the keywords mentionned [in this section](#search-keywords).
+
+## How to scrape :
 
 Scrape only one keyword : `python3 scaper-single.py -q "keyword"`
 
@@ -54,7 +60,7 @@ keep_columns = ['id',
  # pour parser les dates de la colone created_at qui indique la date de création du tweet (prends plus de temps)
 ```
 
-Keywords :
+### Search keywords :
 - abu sayyaf
 - afghanistan
 - agro
