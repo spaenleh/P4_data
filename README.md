@@ -60,7 +60,7 @@ keep_columns = ['id',
  # pour parser les dates de la colone created_at qui indique la date de création du tweet (prends plus de temps)
 ```
 
-### Search keywords :
+### Search keywords
 - abu sayyaf
 - afghanistan
 - agro
